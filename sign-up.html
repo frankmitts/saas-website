@@ -18,7 +18,7 @@
     </div>
 
     <nav class="unit xs-1 s-1 m-2-3 l-3-4 xl-3-4">
-      <ul class="nav push-0">
+      <ul class="nav push-0 list-group">
         <li><a class="island-1-2" href="customers.html">Customers</a></li>
         <li><a class="island-1-2" href="pricing.html">Princing</a></li>
         <li><a class="island-1-2" href="features.html">Features</a></li>
@@ -27,32 +27,32 @@
     </nav>
   </header>
 
-  <main class="island">
+  <main class="island text-center">
   <section class="pad-t pad-b">
-    <h2 class="bold text-center exa">Sign Up</h2>
+    <h2 class="bold push-2 text-center exa">Sign Up</h2>
     <form class="push-0" method="post" action="https://formspree.io/mitt0033@algonquinlive.com">
       <div class="grid grid-middle">
         <div class="sidebyside unit xs-1 s-1 m-1 l-1 xl-1 push">
-          <label for="name">Name</label>
+          <label class="push-1-4 text-left micro text-light" for="name">Name</label>
           <input id="name" name="name">
         </div>
 
         <div class="unit-m-centered sidebyside unit xs-1 s-1 m-1 l-1 xl-1 push">
-          <label for="email">Email</label>
+          <label class="push-1-4 text-left micro text-light" for="email">Email</label>
           <input id="email" type="email">
         </div>
 
         <div class="sidebyside unit xs-1 s-1 m-1 l-1 xl-1 push">
-          <label for="subject">Choose Plan</label>
+          <label class="push-1-4 text-left micro text-light" for="subject">Choose Plan</label>
           <select id="subject" name="subject">
             <option>Free Trial</option>
-            <option>Logo Only</option>
-            <option>Premium</option>
+            <option>Logo Only –$2.99/Month</option>
+            <option>Premium –$10.99/Month</option>
           </select>
         </div>
 
-        <div class="push pad-t unit xs-1 s-1 m-1 l-1 xl-1 text-center">
-          <button class="btn" type="submit">Start Designing!</button>
+        <div class=" push pad-t unit xs-1 s-1 m-1 l-1 xl-1 text-center">
+          <a href="thank-you.html"><button type="submit">Start Designing!</button></a>
         </div>
         <input type="hidden" name="subject" value="join membership">
 
@@ -62,17 +62,28 @@
 
   </main>
 
-  <footer class="grid gutter-1-2 section-dark">
-    <div class="unit xs-1 s-1 m-1 l-1 xl-1">
-      <i class="icon-24 svg">
-        <img class="" src="images/social-banner.svg" alt="#">
-      </i>
+  <footer class=" gutter-1-2 section-dark">
+    <div class="grid">
+      <div class="text-center pad-t unit xs-1 s-1 m-1 l-1 xl-1">
+        <ul>
+          <i class="icon i-64 gutter-2">
+            <a href="#"><img class="svg" src="images/logo-instagram.svg" alt="#"></a>
+          </i>
+          <i class="icon i-64 gutter-2">
+            <a href="#"><img class="svg" src="images/logo-facebook.svg" alt="#"></a>
+          </i>
+          <i class="icon i-64 gutter-2">
+            <a href="#"><img class="svg" src="images/logo-twitter.svg" alt="#"></a>
+          </i>
+        </ul>
+      </div>
     </div>
+
     <div class="grid footer-content">
-      <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4">
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2">
         <a class="link-box" href="#"><p class="text-white pad-t-1-2 text-center">Contact</p></a>
       </div>
-      <div class="unit xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4">
+      <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2">
         <a class="link-box" href="#"><p class="text-white text-center pad-t-1-2">Partnership</p></a>
       </div>
       <div class="unit xs-1 s-1 m-1 l-1 xl-1">
