@@ -95,6 +95,12 @@ a:hover {
   color: #89c214;
 }
 
+.btn:hover {
+  background-color: #89c214;
+  border: solid 3px #89c214;
+  color: #fff;
+}
+
 .banner {
   position: relative;
   max-height: 24em;
