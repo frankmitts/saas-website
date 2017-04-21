@@ -55,12 +55,19 @@ p {
   color: #89c214;
 }
 
+.section-white {
+  background-color: #fff;
+  padding: 0 2em;
+}
+
 .section-light {
   background-color: #dbdbdb;
+  padding: 0 2em;
 }
 
 .section-green {
   background-color: #89c214;
+  padding: 0 2em;
 }
 
 .review {
@@ -163,8 +170,18 @@ home-section {
   margin-bottom: 40em;
 }
 
+.copyright {
+  display: block;
+  width: 100%;
+}
+
+.footer-list {
+  width: 100%;
+}
+
 .nav-2 {
   display: block;
+  width: 100%;
 }
 
 .cards {
@@ -176,6 +193,25 @@ home-section {
 .big-space {
   margin-top: 10rem;
   margin-bottom: 10rem;
+}
+
+.sign-up {
+  margin: 5rem;
+}
+
+input, select {
+  border: solid 3px #89c214;
+  color: #95989a;
+}
+
+button {
+  background-color: #fff;
+}
+
+button:hover {
+  background-color: #89c214;
+  border: solid 3px #89c214;
+  color: #fff;
 }
 
 @media only screen and (min-width: 25em) {
@@ -220,7 +256,7 @@ home-section {
 
   .nav-2 {
     text-align: right;
-    display:inline-block;
+    display: inline-block;
   }
 
   .cards {
@@ -229,7 +265,7 @@ home-section {
   }
 
   .cards:first-child {
-  border-left: 0;
+    border-left: 0;
   }
 }
 
@@ -255,5 +291,6 @@ home-section {
 
   home-section {
     margin-bottom: 0;
+  }
 
 }
