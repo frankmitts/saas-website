@@ -51,8 +51,21 @@ p {
   color: #3a3a3b;
 }
 
+.text-green {
+  color: #89c214;
+}
+
 .section-light {
   background-color: #dbdbdb;
+}
+
+.section-green {
+  background-color: #89c214;
+}
+
+.review {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .masthead {
@@ -146,6 +159,25 @@ form {
   display: inline-block;
 }
 
+home-section {
+  margin-bottom: 40em;
+}
+
+.nav-2 {
+  display: block;
+}
+
+.cards {
+  border-bottom: solid 2px #95989a;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.big-space {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
 @media only screen and (min-width: 25em) {
 
   html {
@@ -155,6 +187,10 @@ form {
 
   .nav li {
     display: inline-block;
+  }
+
+  home-section {
+    margin-bottom: 20em;
   }
 
 }
@@ -174,6 +210,27 @@ form {
     text-align: right;
   }
 
+  home-section {
+    margin-bottom: 20em;
+  }
+
+  .copyright {
+    text-align: left;
+  }
+
+  .nav-2 {
+    text-align: right;
+    display:inline-block;
+  }
+
+  .cards {
+    border-left: solid 2px #95989a;
+    border-bottom: 0;
+  }
+
+  .cards:first-child {
+  border-left: 0;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -181,6 +238,10 @@ form {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  home-section {
+    margin-bottom: 20em;
   }
 
 }
@@ -191,5 +252,8 @@ form {
     font-size: 130%;
     line-height: 1.6;
   }
+
+  home-section {
+    margin-bottom: 0;
 
 }
