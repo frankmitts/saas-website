@@ -217,6 +217,10 @@ button:hover {
   color: #fff;
 }
 
+td {
+  border: none;
+}
+
 @media only screen and (min-width: 25em) {
 
   html {
